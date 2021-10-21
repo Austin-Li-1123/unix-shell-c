@@ -1,0 +1,28 @@
+cd .. && ls
+sleep 2
+invalid && echo Finished!
+exit
+echo ignore me!
+!history
+
+
+cd .. || ls
+sleep 2
+invalid || echo Finished!
+echo ignore me!
+!history
+#2
+!history
+exit
+
+
+ls; sleep 2
+echo Finished!; invalidyahyah haha
+echo hello
+exit
+echo dont print me
+
+sleep 7 &
+echo hello      
+echo yahh > output.txt
+cho fsj >> output.txt
